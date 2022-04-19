@@ -1,3 +1,4 @@
+//Nicky System
 //Ranbow TV
 osc(10,0,3)
   .layer(osc(20,0,4).mask(shape(4)).modulateScale(voronoi(3)))
