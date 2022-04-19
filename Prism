@@ -1,5 +1,5 @@
-//Nick System
-//instagram: nickysystem
+//Nicky System
+//Prism
 
 osc(8,-0.5, 2)
 .pixelate(50,3)
