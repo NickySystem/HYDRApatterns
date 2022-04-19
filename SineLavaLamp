@@ -1,0 +1,10 @@
+//By Nick System
+//instagram: nickysystem
+//Sin(LavaLamp)
+
+s0.initCam();
+noise(1,1)
+.color(0.1,1,0.1)
+.colorama()
+.diff(src(s0).modulateRepeatY(osc(10), 5.0, ({time}) => Math.sin(100) * 5))
+.out(o0)

@@ -1,0 +1,7 @@
+//Ranbow TV
+osc(10,0,3)
+  .layer(osc(20,0,4).mask(shape(4)).modulateScale(voronoi(3)))
+  .mult(osc(40,0,4).mask(shape(5)).modulateScale(voronoi(1.5)))
+  .blend(osc(80,0,4).mask(shape(6)).modulateScale(voronoi(0.75)))
+  .modulatePixelate(gradient())
+  .out()

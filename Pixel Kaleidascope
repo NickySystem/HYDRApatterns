@@ -1,0 +1,9 @@
+//Nick System
+//Pixel Kaleidascope
+
+s0.initCam();
+src(s0)
+.pixelate(5,15)
+.rotate(0.5,0.5)
+.kaleid()
+.out(o0);

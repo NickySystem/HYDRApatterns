@@ -1,0 +1,13 @@
+//Nick System
+//instagram: nickysystem
+
+osc(8,-0.5, 2)
+.pixelate(50,3)
+.kaleid(3)
+.pixelate(50,3)
+.rotate(0.5,0.5)
+.blend(o0)
+.blend(o0)
+.blend(o0)
+.blend(o0)
+.out(o0)

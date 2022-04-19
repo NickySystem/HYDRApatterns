@@ -1,0 +1,13 @@
+//By Nick System
+//intagram: nickysystem
+//Waves
+
+voronoi(0.5, 1, 1).
+color(0,1,1).
+pixelate(10,20).
+rotate(0.01,0.1).
+modulateScale(o0).
+blend(o0).
+blend(o0).
+colorama().
+out(o0)

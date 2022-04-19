@@ -1,0 +1,17 @@
+//Nick System
+//Insta: nickysystem
+// D@ft Wavezzz
+
+s0.initCam();
+src(s0)
+.kaleid(10)
+.colorama(1)
+.rotate(0.1,0.1)
+.mask(shape(3))
+.modulate(o0)
+.modulateRotate(osc(10),0.2)
+.modulatePixelate(osc(5))
+.blend(o0)
+.blend(o0)
+.blend(o0)
+  .out(o0);

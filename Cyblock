@@ -1,0 +1,13 @@
+//By Nick System
+//intagram: nickysystem
+//Cyblock
+
+shape(4).
+color(0,1,1).
+rotate(0.1,0.3).
+blend(o0).
+blend(o0).
+blend(o0).
+blend(o0).
+colorama().
+out(o0)

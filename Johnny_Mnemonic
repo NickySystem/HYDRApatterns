@@ -1,0 +1,12 @@
+// By Nick System
+// Instagram: nickysystem
+// Johnny Mnemonic
+
+gradient(0.1)
+.pixelate(5,20)
+.rotate(45, 0.1)
+.mask(shape(3).rotate(0.1,0.1))
+.add(gradient(1))
+.diff(o0)
+.diff(o0)
+.out(o0)
