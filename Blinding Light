@@ -1,0 +1,5 @@
+gradient([2,4,8])
+.rotate(-0.5,0.1)
+.pixelate(100,10)
+.add(osc((time)%10).colorama((time)%8))
+.out()
