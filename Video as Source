@@ -1,0 +1,6 @@
+s0.initVideo( url = "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/%27This_is_my_home%27-_Life_inside_Chernobyl%E2%80%99s_exclusion_zone.webm/%27This_is_my_home%27-_Life_inside_Chernobyl%E2%80%99s_exclusion_zone.webm.1080p.vp9.webm");
+src(s0).modulate(noise(0.1),0.1)
+.scale([1,2,3,4,5])
+.luma(0.5,0.1)
+.sub(src(s0).scale(5).colorama([0.1,0.2,0.3]))
+.out()
