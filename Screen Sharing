@@ -1,0 +1,5 @@
+//This one is kinda annoying as the browser screensharing stuff is clunky
+
+s0.initScreen()
+src(s0) 
+.out()
