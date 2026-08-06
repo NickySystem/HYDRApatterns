@@ -1,0 +1,7 @@
+s0.initImage( url = "https://upload.wikimedia.org/wikipedia/commons/c/c5/Prokaryote_cell.svg");
+src(s0)
+.scale(0.5)
+.colorama([0.1,0.3,0.2,0.4])
+.pixelate([100,200],[50,60,70,80,90,100])
+.add(noise(10,0.1).rotate(1,1))
+.out()
