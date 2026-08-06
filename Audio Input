@@ -1,0 +1,15 @@
+s0.initCam();
+a.setBins(5) // amount of bins (bands) to separate the audio spectrum
+
+src(s0)
+	.modulate(o0,()=>a.fft[1]*.5) // listening to the 2nd band
+	.out()
+
+a.setSmooth(.9) // audio reactivity smoothness from 0 to 1, uses linear interpolation
+a.setScale(8)    // loudness upper limit (maps to 0)
+a.setCutoff(0.5)   // loudness from which to start listening to (maps to 0)
+
+a.show() // show what hydra's listening to
+//a.hide()
+
+render(o0)
